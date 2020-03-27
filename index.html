@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Pioneer Bank</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+
+	<div id="login-area">
+		<div class="container">
+			<div class="col-md-6 offset-md-3">
+				<h1 class="text-center text-capitalize  pb-5">welcome to pioneer Bank</h1>
+				<div class="submit-area text-capitalize m-2 shadow p-3 mb-5 bg-white rounded">
+					<h3>log in</h3>
+					<input class="form-control my-3" type="text" placeholder="Enter Your Email">
+					<input class="form-control my-3" type="password" placeholder="Password">
+					<button id="login" class="btn btn-success">Sing In</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="transfer-area">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 mb-5">
+					<div class="card text-white bg-primary mb-3" >
+						<div class="card-header">Deposit</div>
+						<div class="card-body"><h5 class="card-title">$ <span id="curentDeposit">00</span></h5></div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card text-white bg-warning mb-3" >
+						<div class="card-header">Withdraw</div>
+						<div class="card-body"><h5 class="card-title">$ <span id="withdrawBlance">00</span></h5></div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-5">
+					<div class="card text-white bg-info mb-3" >
+						<div class="card-header">Balance</div>
+						<div class="card-body"><h5 class="card-title">$ <span id="currentBlance">1200</span></h5></div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			  <div class="col-sm-6">
+			    <div class="card shadow p-3 bg-white rounded">
+			      <div class="card-body">
+			        <h5 class="card-title">Deposit</h5>
+			        <input type="text" id="DepositAmount" class="form-control my-3" placeholder="$ amount you want to Deposit">
+			        <a href="#" id="DepositBtn"  class="btn btn-info"> Deposit</a>
+			      </div>
+			    </div>
+			  </div>
+			  <div class="col-sm-6">
+			    <div class="card shadow p-3  bg-white rounded">
+			      <div class="card-body">
+			        <h5 class="card-title">Withdraw</h5>
+			        <input type="text" id="withdrawAmount" class="form-control my-3" placeholder="$ amount you want to withdraw">
+			        <a href="#" id="withdrawBtn"  class="btn btn-info">withdraw</a>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="text-center py-3">
+				<p class="text-capitalize lead">©️ all right researved By pionner bank Design & Develop by <a href="https://web.facebook.com/devmoinuddin"> ❤️ Mohammad Moin uddin</a></p>
+			</div>
+		</div>
+	</footer>
+	<script src="bootstrap/js/jquery-3.4.1.slim.min.js"></script>
+	<script src="bootstrap/js/popper.min.js" ></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
